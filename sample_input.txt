@@ -1,0 +1,1 @@
+Student logs into Canvas, goes to dashboard, opens course, accesses modules, selects assignment, submits work.
