@@ -10,7 +10,7 @@ try:
 except ImportError:
     pass
 
-client = Groq(api_key=os.getenv("ggsk_fdaD6yFMYi3l0w7LlF8AWGdyb3FYxdmQSbuPmGVitERmT4oCsaEY"))
+client = Groq(api_key=os.getenv("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"))
 MODEL = "llama-3.3-70b-versatile"
 
 
