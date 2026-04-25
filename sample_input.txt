@@ -1,1 +1,50 @@
-Student logs into Canvas, goes to dashboard, opens course, accesses modules, selects assignment, submits work.
+PROCESS OWNER: Jhansi Pothula
+WORKFLOW: Canvas LMS — Assignment Submission Workflow
+COLLECTED BY: Sudhish Chitturi (Builder)
+DATE: April 2026
+
+--- RAW WORKFLOW DESCRIPTION (Jhansi's words) ---
+
+I open Canvas in Chrome. Sometimes it remembers my login, but after weekends it usually 
+logs me out and I have to go through the university SSO portal — which sometimes errors 
+when my VPN is on, so I turn off VPN first.
+
+Once I'm in, I land on the Dashboard. My course (IT7039) isn't always showing as a 
+favorite so I have to scroll through All Courses to find it, especially since I have 
+6 active courses.
+
+First thing I check is Announcements because professors sometimes post last-minute 
+changes to assignments that I'd miss otherwise — I learned this the hard way.
+
+Then I go to Modules to find the assignment. But not every professor organizes it the 
+same way — sometimes I have to go to Assignments directly if Modules doesn't show 
+what I need.
+
+I click on the assignment to read the instructions. Sometimes the instructions are 
+right there in Canvas, but sometimes they link out to a Google Doc or a PDF that I 
+have to download. I've accidentally closed the Canvas assignment page while reading 
+the PDF and had to navigate all the way back.
+
+I work on the assignment in Google Docs or Word. When I'm done I go back to Canvas, 
+find the assignment again, and hit Submit. I upload my file. Canvas doesn't always 
+make it obvious that the submission actually went through — I look for a green 
+checkmark or 'Submitted' label but it's not always clear, so I take a screenshot 
+just in case.
+
+Sometimes the Submit button is grayed out with no explanation. This has happened 
+when the due date passed or when I was on the wrong attempt number. Canvas doesn't 
+tell you why it's grayed out which is really frustrating.
+
+After submitting I go to Grades to confirm the submission registered. Sometimes 
+there's a delay. Later when grades are posted I check SpeedGrader feedback, but 
+finding where the inline comments are is confusing because the interface is not 
+intuitive.
+
+--- PAIN POINTS IDENTIFIED ---
+1. SSO + VPN conflict causes login failure with no clear error message
+2. Course not favorited — requires manual search each time
+3. Inconsistent course organization (Modules vs Assignments vs Files)
+4. External links (PDF/Google Doc) cause loss of assignment page context
+5. Submission confirmation is ambiguous — no clear success state
+6. Submit button grayed out with no explanation of why
+7. SpeedGrader feedback discovery is non-intuitive
