@@ -1,19 +1,14 @@
-"""
-AI-Powered Canvas SOP Generator & Workflow Analyzer
-Backend — uses Groq API (free, fast)
-Partner: Jhansi Pothula (Process Owner)
-Builder: Sudhish Chitturi
-Course: IT7039 — AI for SOPs and Process Documentation
-"""
-
 import json
 import datetime
 import re
 import os
-from dotenv import load_dotenv
 from groq import Groq
 
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 client = Groq(api_key=os.getenv("ggsk_fdaD6yFMYi3l0w7LlF8AWGdyb3FYxdmQSbuPmGVitERmT4oCsaEY"))
 MODEL = "llama-3.3-70b-versatile"
